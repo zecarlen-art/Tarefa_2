@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sistema de Gerenciamento Escolar</h1>
+
+    <h2 class="yunah">Entrar no Sistema</h2>
+    <form>
+        <label>Colaborador:</label><br>
+        <input type="text" name="usuario"/><br><br>
+
+        <label>Senha:</label><br>
+        <input type="password" name="senha"/><br><br>
+
+        <input class="minju" type="submit" value="Entrar"/>
+    </form>
+
+    <hr>
+    <h2 class="yunah">Matrícula</h2>
+    <form>
+        <label>Número da matrícula:</label><br>
+        <input type="password" name="Matrícula"/><br><br>
+
+        <input class="minju" type="submit" value="Entrar"/>
+    </form>
+    <hr>
+
+
+    <h2 class="yunah">Cadastro do aluno</h2>
+    <form>
+        
+        <label>Nome do Aluno:</label><br>
+        <input type="text" name="nomeAluno"/><br><br>
+
+        <label>Número da matrícula:</label><br>
+        <input type="number" name="matrícula"/><br><br>
+
+        <label>Data de Nascimento:</label><br>
+        <input type="date" name="dataNascimento"/><br><br>
+
+        <label>Série:</label><br>
+        <input type="text" name="serie"/><br><br>
+
+        <input class="minju" type="submit" value="Salvar"/>
+    </form>
+
+    <hr>
+
+    <h2 class="yunah">Lista de Alunos</h2>
+    <table border="1">
+        <tr>
+            <th>Nome</th>
+            <th>Série</th>
+            <th>Ações</th>
+        </tr>
+        <tr>
+            <td>Maria Silva</td>
+            <td>8º Ano</td>
+            <td><button>Editar</button> <button>Excluir</button></td>
+        </tr>
+        <tr>
+            <td>João Souza</td>
+            <td>9º Ano</td>
+            <td><button>Editar</button> <button>Excluir</button></td>
+        </tr>
+        <tr>
+            <td>Ana Paula</td>
+            <td>7   º Ano</td>
+            <td><button>Editar</button> <button>Excluir</button></td>
+        </tr>
+    </table>
+</body>
+</html>
